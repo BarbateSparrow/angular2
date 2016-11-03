@@ -1,0 +1,10 @@
+<h3>Dashboard</h3>
+<div class="grid">
+    <div class="row">
+        <div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="cols col-4">
+            <div class="">
+                <h4>{{hero.name}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

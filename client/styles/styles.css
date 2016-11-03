@@ -1,0 +1,70 @@
+/* Master Styles */
+h1 {
+    color: #369;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 250%;
+}
+h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+body {
+    /*margin: 2em;*/
+    /*background-color: rgba(171, 178, 147, 0.45);*/
+}
+body, input[text], button {
+    color: #8f8f8f;
+    font: 100%/1.5em Tahoma, sans-serif;
+    font-family: Cambria, Georgia;
+}
+/* . . . */
+/* everywhere else */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .cols {
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    background: #fd4;
+    text-align: center;
+}
+
+.container .cols.col-1 { width: 8.333333333333332%; }
+.container .cols.col-2 { width: 16.666666667%; }
+.container .cols.col-3 { width: 25%; }
+.container .cols.col-4 { width: 33.333333333%; }
+.container .cols.col-5 { width: 41.666666667%; }
+.container .cols.col-6 { width: 50%; }
+.container .cols.col-7 { width: 58.333333333%; }
+.container .cols.col-8 { width: 66.666666667%; }
+.container .cols.col-9 { width: 75%; }
+.container .cols.col-10 { width: 83.333333333%; }
+.container .cols.col-11 { width: 91.666666667%; }
+.container .cols.col-12 { width: 100%; }
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.clear:before, .clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
